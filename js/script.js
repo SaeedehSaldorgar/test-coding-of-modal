@@ -14,8 +14,8 @@ X.addEventListener('click' , function(){
     section.style.filter = 'blur(0px)'
 })
 
-document.bady.addEventListener('keyup' , function(event){
-    if(keyCode === 27){
+document.body.addEventListener('keyup' , function(event){
+    if(event.keyCode === 27){
       modalParent.style.display = 'none'
       section.style.filter = 'blur(0px)'
     }
